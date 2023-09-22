@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6dc8f
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.auth {
+  background-color: #f6dc8f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #f6dc8f;
+}
+
+.button {
+  background-color: #f6dc8f;
+  margin-bottom: 10px;
+  border-radius: 0;
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+<div class="auth">
+  <div class="form">
+    <h3>Fire-B Chat</h3>
+    <p>Sign In</p>
+    <input [(ngModel)]="user.email" type="text" placeholder="Email" />
+    <input [(ngModel)]="user.password" type="text" placeholder="Password" />
+    <button class="btn btn-warning button" (click)="loginWithEmail()">
+      Sign In
+    </button>
+
+    <div class="register">
+      You don't have an account?
+      <button
+        class="btn btn-link p-0 ms-1"
+        routerLink="/register"
+      >
+        Register
+      </button>
+    </div>
+  </div>
+</div>
